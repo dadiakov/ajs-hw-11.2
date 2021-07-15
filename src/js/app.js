@@ -23,9 +23,9 @@ for (const value of team1) {
   console.log(value);
 }
 
-console.log('\nПроверка Генератора\n')
+console.log('\nПроверка Генератора\n');
 
 const generator = team1[Symbol.iterator]();
-console.log(generator.next().value)
-console.log(generator.next().value)
-console.log(generator.next().value)
+console.log(generator.next().value);
+console.log(generator.next().value);
+console.log(generator.next().value);
